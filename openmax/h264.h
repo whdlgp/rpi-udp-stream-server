@@ -1,3 +1,6 @@
+#ifndef H264_H
+#define H264_H
+
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -205,3 +208,5 @@ void set_h264_settings (component_t* encoder);
 void omx_h264_init();
 void omx_h264_deinit();
 OMX_BUFFERHEADERTYPE* fill_frame_buffer();
+
+#endif

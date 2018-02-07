@@ -1,3 +1,6 @@
+#ifndef COMMON_UTIL_H
+#define COMMON_UTIL_H
+
 #define USE_DEBUG_MSG
 
 #ifdef USE_DEBUG_MSG
@@ -10,3 +13,5 @@
 
 void set_quit();
 int is_quit();
+
+#endif

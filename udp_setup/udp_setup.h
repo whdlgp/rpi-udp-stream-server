@@ -1,3 +1,6 @@
+#ifndef UDP_SETUP_H
+#define UDP_SETUP_H
+
 #include <stdlib.h>
 #include <sys/types.h>
 #include <sys/socket.h>
@@ -22,3 +25,5 @@ void udp_server_close();
 int udp_receive_command();
 int udp_check_command(const char* cmd);
 void udp_send_stream(uint8_t* buf, uint32_t len);
+
+#endif
