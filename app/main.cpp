@@ -6,9 +6,7 @@
 #include <pthread.h>
 
 static void* stream_thread(void* arg)
-{
-    printf("let's send video!\n");
-            
+{           
     OMX_BUFFERHEADERTYPE* frame_buffer;
 
     omx_h264_init();
